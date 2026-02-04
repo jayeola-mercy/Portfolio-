@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jayeola Mercy Kehinde | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+/* HERO SECTION */
+.hero{
+    min-height:100vh;
+    background:
+      linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+      url("pic1.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:#fff;
+    padding:20px;
+}
+
+.hero img{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    border:4px solid #fff;
+    object-fit:cover;
+    display:block;
+    margin:0 auto 15px;
+}
+
+/* SECTIONS */
+section{
+    padding:50px 20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#2c3e50;
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,.1);
+}
+
+/* GALLERY */
+.gallery-container{
+    background:#111;
+    padding:40px 0;
+    overflow:hidden;
+}
+
+.gallery{
+    display:flex;
+    gap:15px;
+    animation:scroll 30s linear infinite;
+}
+
+.gallery img{
+    width:250px;
+    height:160px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+/* SCROLL ANIMATION */
+@keyframes scroll{
+    0%{transform:translateX(0);}
+    100%{transform:translateX(-50%);}
+}
+
+/* FOOTER */
+footer{
+    background:#2c3e50;
+    color:#fff;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div>
+    <img src="pic1.jpg" alt="Jayeola Mercy Kehinde">
+    <h1>Jayeola Mercy Kehinde</h1>
+    <p>Media & Strategic Communication Trainee</p>
+    <p>Dove Media Limited (Dove TV)</p>
+  </div>
+</div>
+
+
+
+<section>
+<h2>Professional Experience</h2>
+<div class="grid">
+  <div class="card">
+    <h3>Organization</h3>
+    <p>Christian Media Organization<br>Dove Media Limited (Dove TV)</p>
+  </div>
+  <div class="card">
+    <h3>Training Areas</h3>
+    <p>Video Editing<br>Content Creation<br>Social Media Management</p>
+  </div>
+  <div class="card">
+    <h3>Duration</h3>
+    <p>Six Weeks of Hands-On Industrial Training</p>
+  </div>
+</div>
+</section>
+
+<!-- GALLERY -->
+<div class="gallery-container">
+<h2 style="color:white;text-align:center;">Training Gallery</h2>
+<div class="gallery">
+  <img src="pic6.png">
+  <img src="pic2.jpg">
+  <img src="pic3.jpg">
+  <img src="pic4.jpg">
+  <img src="pic5.jpg">
+</div>
+</div>
+
+<section>
+<h2>Conclusion</h2>
+<p>
+This experience strengthened my technical competence, professionalism, and readiness for media industry roles.
+</p>
+</section>
+
+<footer>
+© 2026 Jayeola Mercy Kehinde
+</footer>
+
+</body>
+</html>
